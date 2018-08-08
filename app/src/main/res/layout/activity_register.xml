@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/edtCfPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_margin="10dp"
+        />
+
+
+
+</LinearLayout>
